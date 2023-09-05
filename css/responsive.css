@@ -1,0 +1,19 @@
+/*: ------------------------------ mobile device ----------------------------- */
+/* @media screen and (max-width: 576px) {
+	nav,
+	nav ul {
+		flex-direction: column;
+	}
+
+	.play-like-section .flex-div {
+		flex-direction: column-reverse;
+	}
+
+	.play-like-content,
+	.play-like-image {
+		width: 90%;
+	}
+	nav ul li {
+		margin-bottom: 30px;
+	}
+} */
