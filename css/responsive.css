@@ -8,6 +8,7 @@
 	nav ul li {
 		margin-bottom: 30px;
 	}
+	/*: ------------------------------- navbar ends ------------------------------ */
 
 	.play-like-section {
 		flex-direction: column-reverse;
@@ -46,5 +47,18 @@
 	.play-like-image {
 		width: 90%;
 		margin-bottom: 10px;
+	}
+	/*: ------------------------- play like section ends ------------------------- */
+
+	.games-card-container {
+		grid-template-columns: 1fr;
+	}
+
+	.card-item {
+		padding: 0 30px;
+	}
+
+	.section-title {
+		font-size: 2rem;
 	}
 }
