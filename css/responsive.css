@@ -31,7 +31,7 @@
 
 	.play-like-content p {
 		font-size: 0.8rem;
-		margin: 0 auto 10px;
+		margin: 10px auto 20px;
 	}
 
 	.play-like-section .primary-btn {
@@ -58,7 +58,12 @@
 		padding: 0 30px;
 	}
 
+	.item-3 {
+		width: 100%;
+	}
+
 	.section-title {
 		font-size: 2rem;
 	}
+	/*: ------------------ online games section style ends here ------------------ */
 }
