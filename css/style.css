@@ -311,3 +311,68 @@ nav .follow-us {
 	cursor: pointer;
 }
 /*: ------------------ button group section style ends here ------------------ */
+
+/*: ------------------------ footer style starts here ------------------------ */
+.footer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	min-height: 600px;
+	background: #0b0223;
+	color: #fff;
+	text-align: center;
+}
+
+.footer .nav-icon-title {
+	margin-bottom: 30px;
+}
+
+.footer .nav-title {
+	color: #fff;
+}
+
+.footer-description {
+	display: grid;
+	grid-template-columns: repeat(6, 1fr);
+	gap: 60px;
+}
+
+.footer .description {
+	font-size: 1.25rem;
+	font-weight: 600;
+}
+
+.clickable-button-group {
+	display: flex;
+	justify-content: center;
+	gap: 40px;
+	margin-top: 30px;
+}
+
+.clickable-button-group .fa-brands {
+	color: #ffffff;
+	font-size: 2rem;
+}
+
+.clickable-button-group a {
+	text-decoration: none;
+}
+
+.footer .terms-conditions {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 60px;
+	margin-top: 30px;
+}
+
+.footer .terms {
+	color: rgba(255, 255, 255, 0.6);
+	font-size: 1rem;
+	font-weight: 500;
+}
+
+.break {
+	display: none;
+}
+/*: ------------------------- footer style ends here ------------------------- */

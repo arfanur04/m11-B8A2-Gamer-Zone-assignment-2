@@ -101,5 +101,22 @@
 		gap: initial;
 		padding: 5px;
 	}
+	/*: ------------------ button group section style ends here ------------------ */
+
+	.footer-description {
+		grid-template-columns: repeat(3, 1fr);
+		gap: initial;
+	}
+
+	.footer .terms-conditions {
+		grid-template-columns: repeat(2, 1fr);
+		gap: 30px;
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+
+	.break {
+		display: block;
+	}
 }
-/*: ------------------ button group section style ends here ------------------ */
+/*: ------------------------- footer style ends here ------------------------- */
