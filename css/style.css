@@ -277,3 +277,37 @@ nav .follow-us {
 	right: 70%;
 }
 /*: ------------------ Play Instantly section style ends her ----------------- */
+
+/*: ----------------- button group section style starts here ----------------- */
+.button-group-section-bg {
+	margin-top: 100px;
+	padding: 100px 0;
+	background: linear-gradient(
+		90deg,
+		rgba(255, 66, 165, 0.03) 13.13%,
+		rgba(255, 66, 165, 0.03) 87.94%
+	);
+}
+
+.button-group-section {
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	gap: 27px;
+}
+
+.button-item {
+	display: flex;
+	align-items: center;
+	gap: 16px;
+	padding: 5px;
+	border-radius: 50px;
+	background: #fff;
+	/* width: 100%; */
+}
+
+.button-item:hover {
+	border: 1.5px solid #ff42a5;
+	color: #ff42a5;
+	cursor: pointer;
+}
+/*: ------------------ button group section style ends here ------------------ */

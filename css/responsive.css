@@ -89,5 +89,17 @@
 		width: 70%;
 		margin-right: 30px;
 	}
+	/*: ------------------ Play Instantly section style ends her ----------------- */
+
+	.button-group-section {
+		grid-template-columns: repeat(3, 1fr);
+		gap: initial;
+	}
+
+	.button-item {
+		flex-direction: column;
+		gap: initial;
+		padding: 5px;
+	}
 }
-/*: ------------------ Play Instantly section style ends her ----------------- */
+/*: ------------------ button group section style ends here ------------------ */
