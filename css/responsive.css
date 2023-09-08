@@ -1,4 +1,6 @@
-/*: ------------------------------ mobile device ----------------------------- */
+/* -------------------------------------------------------------------------- */
+/*:                                mobile device                               */
+/* -------------------------------------------------------------------------- */
 @media screen and (max-width: 576px) {
 	nav,
 	nav ul {
@@ -89,7 +91,7 @@
 		width: 70%;
 		margin-right: 30px;
 	}
-	/*: ------------------ Play Instantly section style ends her ----------------- */
+	/*: ------------------ Play Instantly section style ends here ----------------- */
 
 	.button-group-section {
 		grid-template-columns: repeat(3, 1fr);
@@ -120,3 +122,78 @@
 	}
 }
 /*: ------------------------- footer style ends here ------------------------- */
+
+/* -------------------------------------------------------------------------- */
+/*:                                tablet device                               */
+/* -------------------------------------------------------------------------- */
+@media screen and (min-width: 577px) and (max-width: 992px) {
+	header {
+		margin: 0 10px;
+	}
+
+	nav li {
+		margin-right: 0;
+	}
+
+	nav .only-nav-icon {
+		margin-right: 15px;
+	}
+	/*: --------------------------- nav style ends here -------------------------- */
+
+	.games-card-container {
+		grid-template-columns: repeat(2, 1fr);
+		margin: 0 10px;
+	}
+	/*: ------------------ online games section style ends here ------------------ */
+
+	.play-instantly-content > .text-content {
+		width: 70%;
+		margin-right: 20px;
+	}
+
+	.play-like-title,
+	.section-title {
+		font-size: 2rem;
+	}
+
+	.play-like-goat {
+		font-size: 4rem;
+	}
+
+	.sign-in-btn {
+		margin-right: 10px;
+	}
+
+	.play-instantly-content {
+		width: 100%;
+	}
+
+	.play-instantly-img-container {
+		width: 70%;
+		margin-right: 10px;
+	}
+	/*: ------------------ Play Instantly section style ends her ----------------- */
+
+	.button-group-section-bg {
+		padding: 100px 10px;
+	}
+
+	.button-group-section {
+		grid-template-columns: repeat(4, 1fr);
+		gap: initial;
+	}
+	/*: ------------------ button group section style ends here ------------------ */
+
+	.footer-description {
+		grid-template-columns: repeat(3, 1fr);
+		gap: initial;
+	}
+
+	.footer .terms-conditions {
+		grid-template-columns: repeat(2, 1fr);
+		gap: 20px;
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+	/*: ------------------------- footer style ends here ------------------------- */
+}
